@@ -3,8 +3,6 @@
 import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
 import Link from "next/link";
-import { BsGithub, BsLinkedin } from "react-icons/bs";
-import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
 
 function HeroSection() {
@@ -21,31 +19,13 @@ function HeroSection() {
       <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8">
         <div className="order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10">
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
-            Hello,👋<br />
-            This is {' '}
-            <span className="text-pink-500">{personalData.name}</span>
-            {`, I'm a Professional `}
-            <span className="text-[#16f2b3]">{personalData.designation}</span>
-            {` `}with <span className="text-pink-500">extensive experience</span> in
-            {` `}<span className="text-[#16f2b3]">fast-paced startup environments</span>.
+            {"Hello,"}
+            <br />
+            This is <span className="text-pink-500">{personalData.name}</span>, a{" "}
+            <span className="text-[#16f2b3]">{personalData.designation}</span> focused on
+            building <span className="text-pink-500">scalable, high-quality products</span> for{" "}
+            <span className="text-[#16f2b3]">real-world business needs</span>.
           </h1>
-
-          <div className="my-12 flex items-center gap-5">
-            <Link
-              href={personalData.github}
-              target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
-            >
-              <BsGithub size={30} />
-            </Link>
-            <Link
-              href={personalData.linkedIn}
-              target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
-            >
-              <BsLinkedin size={30} />
-            </Link>
-          </div>
 
           <div className="flex items-center gap-3">
             <Link href="#contact" className="bg-gradient-to-r to-pink-500 from-violet-600 p-[1px] rounded-full transition-all duration-300 hover:from-pink-500 hover:to-violet-600">
@@ -80,7 +60,7 @@ function HeroSection() {
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
                 <span className="text-gray-400">{`'`}</span>
-                <span className="text-amber-300">King Tung Yeung</span>
+                <span className="text-amber-300">{personalData.name}</span>
                 <span className="text-gray-400">{`',`}</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">

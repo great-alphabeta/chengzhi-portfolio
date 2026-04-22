@@ -1,12 +1,12 @@
 export const personalData = {
-  name: "King Tung Yeung",
+  name: "Chengzhi Zhao",
   profile: '/profile.png',
-  designation: "Senior Software Engineer",
-  description: "My name is King Tung Yeung. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript, Python and Java and I love to do most of the things using them. I am available for any kind of job opportunity that suits my skills and interests.",
-  email: 'kingtungy@gmail.com',
-  whatsapp: '+1 (223) 533-6822',
-  telegram: 'https://t.me/alphabeta_456',
-  address: 'Sha Tin District, Hong Kong SAR',
-  github: 'https://github.com/diamond120',
-  linkedIn: 'https://www.linkedin.com/in/king-tung-yeung/'
+  designation: "Software Engineer",
+  description: "I am Chengzhi Zhao, a software engineer based in Houston, TX. I build reliable, user-focused web applications with strong attention to code quality, maintainability, and performance. I enjoy solving complex problems, collaborating with cross-functional teams, and continuously improving systems that deliver measurable business value.",
+  email: 'chengzhi94117@gmail.com',
+  whatsapp: '+1 445 293 3923',
+  telegram: '',
+  address: 'Houston, TX',
+  github: '',
+  linkedIn: ''
 }
